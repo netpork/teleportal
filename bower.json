@@ -1,0 +1,24 @@
+{
+  "name": "teleportal",
+  "version": "0.0.0",
+  "homepage": "https://github.com/netpork/teleportal",
+  "authors": [
+    "netpork <netpork@gmail.com>"
+  ],
+  "description": "telemedicina web portal",
+  "main": "index.html",
+  "license": "LGPL3",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.2.0",
+    "sammy": "0.7.5"
+  }
+}
