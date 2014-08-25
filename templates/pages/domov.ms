@@ -37,7 +37,7 @@
 			      <div class="carousel-caption">
 			        <h3>Jeseni končno e-recepti pri vseh zdravnikih na primarni ravni in v vseh lekarnah</h3>
 			        <p>
-			        	Obsežna raziskava, v kateri je sodelovalo 14.000 mater, je pokazala, da lahko dojenje za polovico zmanjša tveganje za poporodno depresijo.
+						Na ministrstvu za zdravje načrtujejo, da bodo na začetku jeseni v projekt eRecept vključili vse lekarne.
 			        </p>
 			      	<a class="btn btn-xs btn-primary pull-right" href="#">Več</a>
 			      </div>
@@ -55,5 +55,63 @@
 			</div>
 		</div>
 		
+	</div>
+</section>
+
+<section style="margin-top: 20px;">
+	<div class="container-fluid">
+		<div class="row center-block">
+			<span class="col-md-offset-2 col-md-2 image-thumbnails">
+				<a href="#">
+					<img src="assets/img/diabetes.png" class="img-responsive" alt="">
+					<h4>Diabetes</h4>
+				</a>
+			</span>
+			<span class="col-md-2 image-thumbnails">
+				<a href="#">
+					<img src="assets/img/hiv.png" class="img-responsive" alt="">
+					<h4>HIV</h4>
+				</a>
+			</span>
+			<span class="col-md-2 image-thumbnails">
+				<a href="#">
+					<img src="assets/img/holesterol.png" class="img-responsive" alt="">
+					<h4>Holesterol</h4>
+				</a>
+			</span>
+			<span class="col-md-2 image-thumbnails">
+				<a href="#">
+					<img src="assets/img/depresija.png" class="img-responsive" alt="">
+					<h4>Depresija</h4>
+				</a>
+			</span>
+		</div>		
+
+		<div class="row" style="margin-top: 10px;">
+			<span class="col-md-offset-2 col-md-2 image-thumbnails">
+				<a href="#">
+					<img src="assets/img/odvisnost.png" class="img-responsive" alt="">
+					<h4>Odvisnost</h4>
+				</a>
+			</span>
+			<span class="col-md-2 image-thumbnails">
+				<a href="#">
+					<img src="assets/img/zobozdravstvo.png" class="img-responsive" alt="">
+					<h4>Karies</h4>
+				</a>
+			</span>
+			<span class="col-md-2 image-thumbnails">
+				<a href="#">
+					<img src="assets/img/tlak.png" class="img-responsive" alt="">
+					<h4>Krvni tlak</h4>
+				</a>
+			</span>
+			<span class="col-md-2 image-thumbnails">
+				<a href="#">
+					<img src="assets/img/pneumonija.png" class="img-responsive" alt="">
+					<h4>Pneumonia</h4>
+				</a>
+			</span>
+		</div>		
 	</div>
 </section>

@@ -1,3 +1,14 @@
 .carousel-caption {
 	text-shadow: 0 2px 2px rgba(0,0,0,.9);
 }
+
+.image-thumbnails {
+	text-align: center;
+}
+
+	.image-thumbnails img {
+		width: 60%;
+		height: 60%;
+		margin: 0 auto;
+	}
+
