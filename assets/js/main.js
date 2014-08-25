@@ -25,6 +25,9 @@ var Teleportal = (function($) {
 			this.get('#/', function() {
 				ctx = this;
 				Teleportal.header.init();
+
+				ctx.render(templatesPath + '/pages/domov.ms')
+				.appendTo(mainContainer);
 			});
 
 		});

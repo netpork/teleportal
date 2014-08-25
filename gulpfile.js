@@ -38,7 +38,7 @@ gulp.task('webserver', function() {
 gulp.task('watch', function() {
 	gulp.watch('assets/css/**', ['styles']);
 
-	gulp.watch(['./index.html', './templates/**/*.ms'], ['html']);
+	gulp.watch(['./index.html', './templates/**'], ['html']);
 
 	gulp.watch(['assets/js/**'], ['js']);
 
