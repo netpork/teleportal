@@ -9,7 +9,7 @@ var gulp = require('gulp'),
 
 
 gulp.task('js', function() {
-	gulp.src('assets/js/**/*.js')
+	gulp.src('assets/js/*.js')
 		.pipe(connect.reload())
 		;
 });
@@ -24,7 +24,7 @@ gulp.task('styles', function() {
 });
 
 gulp.task('html', function() {
-	gulp.src(['./index.html', './templates/**/*.ms'])
+	gulp.src(['./index.html', './templates/**/*.ms', './templates/*.ms'])
 		// .pipe(gulp.dest())
 		.pipe(connect.reload());
 });
@@ -40,7 +40,7 @@ gulp.task('watch', function() {
 
 	gulp.watch(['./index.html', './templates/**/*.ms'], ['html']);
 
-	gulp.watch(['assets/js/**/*.js'], ['js']);
+	gulp.watch(['assets/js/**'], ['js']);
 
 });
 
