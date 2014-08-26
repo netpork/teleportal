@@ -3,12 +3,18 @@ var Teleportal = (function($) {
 
 	var mainContainer,
 	app, ctx,
-	templatesPath = 'templates/'
+	templatesPath = 'templates/',
+	storage = $.sessionStorage,
+	authorised = false
 	;
 
 	function init() {
 		mainContainer = $('#main');
+		// logIn();
+		logOff();
 		initSammy();
+		isAuthorised();
+
 		console.log('init');
 	}	
 
@@ -25,9 +31,6 @@ var Teleportal = (function($) {
 			this.get('#/', function() {
 				ctx = this;
 				Teleportal.header.init();
-
-				ctx.render(templatesPath + '/pages/domov.ms')
-				.appendTo(mainContainer);
 			});
 
 		});
@@ -36,8 +39,24 @@ var Teleportal = (function($) {
 		app.run('#/');
 	}
 
+
+	function isAuthorised() {
+		authorised = storage.isSet('authorised');
+		console.log(authorised);
+		return authorised;
+	}
+
+	function logIn() {
+		storage.set('authorised', true);
+	}
+
+	function logOff() {
+		storage.remove('authorised');
+	}
+
 	return {
 		init: init,
+		getAuthorised: isAuthorised,
 		getMainContainer: function() {
 			return mainContainer;
 		},

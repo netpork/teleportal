@@ -41,12 +41,15 @@
         </li>
 
         <!-- for registered users only -->
-        <li>
+        {{#authorised}}
+          <li>
           <a href="#">Vprašaj</a>
         </li>
         <li>
           <a href="#">Naročanje</a>
         </li>
+        {{/authorised}}
+
         </ul>
         <!--  -->
 
@@ -60,7 +63,15 @@
       </form>
       
       <ul class="nav navbar-nav navbar-right">
+        {{^authorised}}
         <li><a href="#">Prijava</a></li>
+        {{/authorised}}
+        {{#authorised}}
+        <li>
+          <img src="assets/img/avatar3_50.jpg" width="80%" class="avatar-rounded" style="margin-top: 5px;" alt="">
+        </li>
+        <li><a href="#">Odjava</a></li>
+        {{/authorised}}
       </ul>
 
     </div><!-- /.navbar-collapse -->
