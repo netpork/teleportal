@@ -19,13 +19,13 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
+      <ul id="navigation" class="nav navbar-nav">
         
-        <li class="active">
-          <a href="#">Domov</a>
+        <li>
+          <a href="#/">Domov</a>
         </li>
         <li>
-          <a href="#">Novice</a>
+          <a href="#/novice">Novice</a>
         </li>
         <li>
           <a href="#">Bolezni</a>
@@ -64,13 +64,13 @@
       
       <ul class="nav navbar-nav navbar-right">
         {{^authorised}}
-        <li><a href="#">Prijava</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#loginModal">Prijava</a></li>
         {{/authorised}}
         {{#authorised}}
         <li>
           <img src="assets/img/avatar3_50.jpg" width="80%" class="avatar-rounded" style="margin-top: 5px;" alt="">
         </li>
-        <li><a href="#">Odjava</a></li>
+        <li><a href="#" id="logoutButton">Odjava</a></li>
         {{/authorised}}
       </ul>
 

@@ -11,9 +11,8 @@ var Teleportal = (function($) {
 	function init() {
 		mainContainer = $('#main');
 		// logIn();
-		logOff();
+		// logOff();
 		initSammy();
-		isAuthorised();
 
 		console.log('init');
 	}	
@@ -29,14 +28,27 @@ var Teleportal = (function($) {
 
 			// home route
 			this.get('#/', function() {
+				emptyMain();
+				isAuthorised();
 				ctx = this;
-				Teleportal.header.init();
+				Teleportal.header.init('domov', 0);
+				console.count('main');
 			});
+
+			// novice
+			this.get('#/novice', function() {
+				emptyMain();
+				isAuthorised();
+				ctx = this;
+				Teleportal.header.init('novice', 1);
+			});
+
 
 		});
 
 		app.debug = true;
 		app.run('#/');
+
 	}
 
 
@@ -54,9 +66,41 @@ var Teleportal = (function($) {
 		storage.remove('authorised');
 	}
 
+	function initEvents() {
+		$('#login-button').on('click', function(e) {
+			// e.preventDefault();
+			var email = $('#inputEmail').val();
+			var password = $('#inputPassword').val();
+			doLogin(email, password);
+			console.count('prijava');
+		});
+
+		$('#logoutButton').on('click', function(e) {
+			// e.preventDefault();
+			logOff();
+			emptyMain();
+			location.reload();
+		});
+	}
+
+	function doLogin(email, password) {
+		if (email === "test" && password === "test") {
+			logIn();
+			$('#loginModal').modal('hide');
+			console.log(ctx);
+			location.reload();
+		}
+	}
+
+	function emptyMain() {
+		mainContainer.empty();
+	}
+
+
 	return {
 		init: init,
 		getAuthorised: isAuthorised,
+		initEvents: initEvents,
 		getMainContainer: function() {
 			return mainContainer;
 		},
