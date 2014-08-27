@@ -1,7 +1,7 @@
 <section>
 	<div class="container-fluid">
-		<div class="pull-right">
-			<span data-target="#stats" data-toggle="collapse" style="cursor: pointer;">Stats</span>
+		<div class="pull-right" data-target="#stats" data-toggle="collapse" style="margin-right: 15px; cursor: pointer;">
+			<span class="glyphicon glyphicon-stats"></span>
 			<b class="caret"></b>
 		</div>
 	</div>
@@ -12,17 +12,17 @@
 		<div class="stats-bar">
 			<div class="stat-container flat">
 				<h6>PRIJAVLJENIH</h6>
-				<h5>150</h4>
+				<h5><strong>150</strong></h4>
 				<span id="stats-registered"></span>
 			</div>
 			<div class="stat-container flat">
 				<h6>REGISTRIRANIH</h6>
-				<h5>15.034</h4>
+				<h5><strong>15.034</strong></h4>
 				<span class="stats-up">13.6%</span>
 			</div>
 			<div class="stat-container flat">
 				<h6>REG. ZDRAVNIKOV</h6>
-				<h5>43</h4>
+				<h5><strong>43</strong></h4>
 				<span class="stats-same">0%</span>
 			</div>
 		</div>

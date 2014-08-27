@@ -34,7 +34,8 @@ Teleportal.header = function() {
 
 	function makeBars() {
 		$("#stats-registered").sparkline(
-			[5, 10, 11, 12, 15, 25,36,37,33,34,40,50,41],
+			// [5, 10, 11, 12, 15, 25,36,37,33,34,40,50,41],
+			[2,4,3,6,7,5,8,9,4,2,6,8,8,9,10],
 			{
     			type: 'bar',
     			height: '16'
