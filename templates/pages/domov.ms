@@ -1,3 +1,34 @@
+<section>
+	<div class="container-fluid">
+		<div class="pull-right">
+			<span data-target="#stats" data-toggle="collapse" style="cursor: pointer;">Stats</span>
+			<b class="caret"></b>
+		</div>
+	</div>
+</section>
+
+<section id="stats" class="collapse">
+	<div class="container-fluid">
+		<div class="stats-bar">
+			<div class="stat-container flat">
+				<h6>PRIJAVLJENIH</h6>
+				<h5>150</h4>
+				<span id="stats-registered"></span>
+			</div>
+			<div class="stat-container flat">
+				<h6>REGISTRIRANIH</h6>
+				<h5>15.034</h4>
+				<span class="stats-up">13.6%</span>
+			</div>
+			<div class="stat-container flat">
+				<h6>REG. ZDRAVNIKOV</h6>
+				<h5>43</h4>
+				<span class="stats-same">0%</span>
+			</div>
+		</div>
+	</div>
+</section>
+
 <section id="domov-carousel">
 	<div class="container-fluid" style="background-color: #dcf3f9;">
 		
