@@ -43,6 +43,22 @@ var Teleportal = (function($) {
 				Teleportal.header.init('novice', 1);
 			});
 
+			// bolezni
+			this.get('#/bolezni', function() {
+				emptyMain();
+				isAuthorised();
+				ctx = this;
+				Teleportal.header.init('bolezni', 2);
+			});
+
+			this.get('#/bolezni/:bolezen', function() {
+				emptyMain();
+				isAuthorised();
+				ctx = this;
+				var bolezen = this.params.bolezen;
+				// console.log(params.has('bolezen'));
+				Teleportal.header.init('bolezni', 2, bolezen);
+			});
 
 		});
 

@@ -1,29 +1,43 @@
 Teleportal.header = function() {
 	'use strict';
 
-	function init(page, active) {
-		inject(page, active);
+	function init(page, active, bolezen) {
+		inject(page, active, bolezen);
 	}
 
-	function inject(page, active) {
+	function inject(page, active, bolezen) {
 		Teleportal.getContext()
 		.render(Teleportal.getTemplatesPath() + 'header.ms', {authorised: Teleportal.getAuthorised()})
 		.appendTo(Teleportal.getMainContainer())
 		.then(function() {
 			console.log('header loaded');
-			insertPage(page);
+			insertPage(page, bolezen);
 			Teleportal.initEvents();
 			setActive(active);
 		});
 	}
 
-	function insertPage(page) {
+	function insertPage(page, bolezen) {
+		if (page === 'domov' && Teleportal.getAuthorised()) {
+			page = 'domov-authorised';
+		}
+
+		
 		Teleportal.getContext().render(Teleportal.getTemplatesPath() + '/pages/' + page + '.ms')
 		.appendTo(Teleportal.getMainContainer())
 		.then(function() {
 			if (page === 'domov') {
 				makeBars();
 			}
+			// console.log(bolezen);
+
+			if (page === 'bolezni' && bolezen !== 'undefined') {
+				$('#' + bolezen).addClass('in');
+				// scroll to
+				var top = $('#anchor_' + bolezen).offset().top;
+				$(window).scrollTop(top);
+			}
+
 		});
 	}
 

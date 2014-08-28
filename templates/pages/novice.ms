@@ -48,7 +48,7 @@
 					<h4 class="media-heading">"Začela sem se spraševati, a ne znava narediti otroka?"</h4>
 					"Ko je ginekologinja povedala, da pravzaprav ne vidi ovire, zakaj še nisem zanosila – je bilo še huje. Če se prej nisva niti pretirano obremenjevala s tem, zakaj otroka še ni, nama potem nikakor ni bilo jasno, zakaj ne zanosim, če je z menoj vse v redu. Začela sem se spraševati, a morda ne znava narediti otroka? Kako da ne, saj to vsak zna, saj jih je poln ves nerazviti svet!"
 				</div>
-				<span class="label label-primary pull-right">Ogledov: 179</span>
+				<span class="label label-default pull-right">Ogledov: 179</span>
 			</div>
 
 			<div class="media">
@@ -59,7 +59,7 @@
 					<h4 class="media-heading">Peteršilj velja za eno najbolj zdravilnih zelišč</h4>
 					Peteršilj je danes poznan tako v kulinariki kot domači lekarni in zdravstvenih učinkovinah, medtem ko je moral biti v Homerjevih časih na vsaki slavnostni pojedini, saj so se bali zastrupitev.
 				</div>
-				<span class="label label-primary pull-right">Ogledov: 131</span>
+				<span class="label label-default pull-right">Ogledov: 131</span>
 			</div>
 			<div class="media">
 				<a href="#" class="pull-left">
@@ -69,7 +69,7 @@
 					<h4 class="media-heading">Na Danskem 12 ljudi umrlo zaradi klobas z listerijo</h4>
 					Za posledicami okužbe z bakterijo listerije je na Danskem v zadnjih nekaj mesecih umrlo 12 ljudi, ki naj bi se okužili s kontaminiranimi klobasami.
 				</div>
-				<span class="label label-primary pull-right">Ogledov: 98</span>
+				<span class="label label-default pull-right">Ogledov: 98</span>
 			</div>
 			<div class="media">
 				<a href="#" class="pull-left">
@@ -79,7 +79,7 @@
 					<h4 class="media-heading">Zehanje – mehanizem za ohlajanje možganov?</h4>
 					Pogostost zehanja je odvisna od temperature okolja, kažejo raziskave pri ptičih, podganah, opicah in ljudeh. Zehanje napoveduje dvig temperature v možganih.
 				</div>
-				<span class="label label-primary pull-right">Ogledov: 79</span>
+				<span class="label label-default pull-right">Ogledov: 79</span>
 			</div>
 			<div class="media">
 				<a href="#" class="pull-left">
@@ -90,7 +90,7 @@
 					Vlada je sprejela uredbo o razvrstitvi prepovedanih drog, z novo ureditvijo pa bo omogočena uporaba učinkovin iz konoplje v medicinske namene.
 					Ker je medicinska stroka podprla uporabo učinkovin iz konoplje za zdravljenje simptomov nekaterih bolezni, je vlada potrdila spremembo, s katero v Sloveniji omogoča uporabo zdravil na osnovi kanabinoidov, so sporočili iz vladnega urada za komuniciranje.
 				</div>
-				<span class="label label-primary pull-right">Ogledov: 17</span>
+				<span class="label label-default pull-right">Ogledov: 17</span>
 			</div>
 			<div class="media">
 				<a href="#" class="pull-left">
@@ -100,7 +100,7 @@
 					<h4 class="media-heading">Znate ločiti čemaž od jesenskega podleska?</h4>
 					Mnogi ljudje radi nabirajo in jedo čemaž, a pazljivo, saj je zamenjava s strupenim jesenskim podleskom lahko usodna. Kako ločimo obe rastlini?
 				</div>
-				<span class="label label-primary pull-right">Ogledov: 4</span>
+				<span class="label label-default pull-right">Ogledov: 4</span>
 			</div>
 
 		</div>

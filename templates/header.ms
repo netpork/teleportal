@@ -28,7 +28,7 @@
           <a href="#/novice">Novice</a>
         </li>
         <li>
-          <a href="#">Bolezni</a>
+          <a href="#/bolezni">Bolezni</a>
         </li>
         <li>
           <a href="#">Video</a>

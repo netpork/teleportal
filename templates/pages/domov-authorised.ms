@@ -44,31 +44,31 @@
 			  <!-- Wrapper for slides -->
 			  <div class="carousel-inner">
 			    <div class="item active">
-			      <img src="assets/img/news_1.jpg" alt="...">
+			      <img src="assets/img/logged_news_1.jpg" alt="...">
 			      <div class="carousel-caption">
-					<h3>Celjska bolnišnica pridelala izgubo, toda dosegla nižje cene zdravil z novimi javnimi naročili</h3>
+					<h3>Zdravo življenje in preventivni pregled varujeta pred boleznimi srca</h3>
 					<p>
-						Celjska bolnišnica je v polletju poslovala z 830.000 evrov izgube, prihodki pa so porasli za 0,6 odstotka, na 44,1 milijona evrov.
+						Velik delež odraslih Slovencev ima dejavnike tveganja za srčno-žilne bolezni. Pomemben del preprečevanja obolelosti so tudi preventivni pregledi.
 					</p>
 			      	<a class="btn btn-xs btn-primary pull-right" href="#">Več</a>
 			      </div>
 			    </div>
 
 			    <div class="item">
-			      <img src="assets/img/news_2.jpg" alt="...">
+			      <img src="assets/img/logged_news_2.jpg" alt="...">
 			      <div class="carousel-caption">
-			        <h3>Dojenje znižuje tveganje za poporodno depresijo</h3>
-			        <p>Obsežna raziskava, v kateri je sodelovalo 14.000 mater, je pokazala, da lahko dojenje za polovico zmanjša tveganje za poporodno depresijo.</p>
+			        <h3>S čebulo nad holesterol v krvi</h3>
+			        <p>Koronarne bolezni so dandanes ena najpogostejših zdravstvenih težav sodobnega človeka.</p>
 			      	<a class="btn btn-xs btn-primary pull-right" href="#">Več</a>
 			      </div>
 			    </div>
 			  
 			    <div class="item">
-			      <img src="assets/img/news_3.jpg" alt="...">
+			      <img src="assets/img/logged_news_3.jpg" alt="...">
 			      <div class="carousel-caption">
-			        <h3>Jeseni končno e-recepti pri vseh zdravnikih na primarni ravni in v vseh lekarnah</h3>
+			        <h3>Redna vadba nas varuje</h3>
 			        <p>
-						Na ministrstvu za zdravje načrtujejo, da bodo na začetku jeseni v projekt eRecept vključili vse lekarne.
+						Če niste fizično aktivni, imate veliko večje možnosti za nastanek različnih bolezni, nekatere od njih so lahko usodnega pomena.
 			        </p>
 			      	<a class="btn btn-xs btn-primary pull-right" href="#">Več</a>
 			      </div>
@@ -93,22 +93,16 @@
 <section style="margin-top: 20px;">
 	<div class="container-fluid">
 		<div class="row center-block">
-			<span class="col-md-offset-2 col-md-2 image-thumbnails">
-				<a href="#/bolezni/sladkorna">
-					<img src="assets/img/diabetes.png" class="img-responsive" alt="">
-					<h4>Diabetes</h4>
-				</a>
-			</span>
-			<span class="col-md-2 image-thumbnails">
-				<a href="#/bolezni/hiv">
-					<img src="assets/img/hiv.png" class="img-responsive" alt="">
-					<h4>HIV</h4>
-				</a>
-			</span>
-			<span class="col-md-2 image-thumbnails">
+			<span class="col-md-offset-3 col-md-2 image-thumbnails">
 				<a href="#/bolezni/acc-holersterol">
 					<img src="assets/img/holesterol.png" class="img-responsive" alt="">
 					<h4>Holesterol</h4>
+				</a>
+			</span>
+			<span class="col-md-2 image-thumbnails">
+				<a href="#/bolezni/acc-tlak">
+					<img src="assets/img/tlak.png" class="img-responsive" alt="">
+					<h4>Krvni tlak</h4>
 				</a>
 			</span>
 			<span class="col-md-2 image-thumbnails">
@@ -119,32 +113,6 @@
 			</span>
 		</div>		
 
-		<div class="row" style="margin-top: 10px;">
-			<span class="col-md-offset-2 col-md-2 image-thumbnails">
-				<a href="#/bolezni/odvisnost">
-					<img src="assets/img/odvisnost.png" class="img-responsive" alt="">
-					<h4>Odvisnost</h4>
-				</a>
-			</span>
-			<span class="col-md-2 image-thumbnails">
-				<a href="#/bolezni/karies">
-					<img src="assets/img/zobozdravstvo.png" class="img-responsive" alt="">
-					<h4>Karies</h4>
-				</a>
-			</span>
-			<span class="col-md-2 image-thumbnails">
-				<a href="#/bolezni/acc-tlak">
-					<img src="assets/img/tlak.png" class="img-responsive" alt="">
-					<h4>Krvni tlak</h4>
-				</a>
-			</span>
-			<span class="col-md-2 image-thumbnails">
-				<a href="#/bolezni/pneumonija">
-					<img src="assets/img/pneumonija.png" class="img-responsive" alt="">
-					<h4>Pljučnica</h4>
-				</a>
-			</span>
-		</div>		
 	</div>
 </section>
 
@@ -159,8 +127,8 @@
 					<img src="assets/img/avatar1_50.jpg" alt="" class="media-object avatar-rounded">
 				</a>
 				<div class="media-body">
-					<h4 class="media-heading">Za volan le spočiti in naspani</h4>
-					Zaspanost je vzrok za več kot desetino prometnih nesreč. Na pot pojdite torej le spočiti in naspani, če med vožnjo začutite utrujenost ali zaspanost, pa takoj ustavite.
+					<h4 class="media-heading">Več kot pol milijarde ljudi na svetu predebelih</h4>
+					Število ljudi s čezmerno telesno težo se je v zadnjih 30 letih na svetu skoraj podvojilo, in sicer na pol milijarde.
 				</div>
 			</div>
 			<div class="media">
@@ -168,8 +136,8 @@
 					<img src="assets/img/avatar3_50.jpg" alt="" class="media-object avatar-rounded">
 				</a>
 				<div class="media-body">
-					<h4 class="media-heading">V boj proti okuženim klopom tudi z brezplačno aplikacijo Klop SOS</h4>
-					Sprehod po gozdu ali delo na vrtu se lahko kaj hitro konča z neželenim vbodom klopa, ki je lahko nevaren, saj lahko klop prenaša več bolezni, pri nas predvsem klopni meningoencefalitis in lymsko boreliozo. Obolevnost za klopnim meningoencefalitisom lahko odslej na enostaven način preverite z aplikacijo Klop SOS.
+					<h4 class="media-heading">Z dieto proti holesterolu</h4>
+					Če imate povišan holesterol, potem je potrebna dieta, kar pa ne pomeni, da kar naenkrat nehate jesti in začnete mučiti telo s pomanjkanjem goriva.
 				</div>
 			</div>
 		</div>
@@ -180,8 +148,8 @@
 					<img src="assets/img/avatar_50.jpg" alt="" class="media-object avatar-rounded">
 				</a>
 				<div class="media-body">
-					<h4 class="media-heading">Zehanje – mehanizem za ohlajanje možganov?</h4>
-					Pogostost zehanja je odvisna od temperature okolja, kažejo raziskave pri ptičih, podganah, opicah in ljudeh. Zehanje napoveduje dvig temperature v možganih.
+					<h4 class="media-heading">Zdrav zajtrk za kakovostno življenje</h4>
+					Zdrav zajtrk napolni človeka z energijo za cel dan, a ni pomemben le za 24 ur. Pravilna jutranja prehrana postavlja temelje za celo življenje.
 				</div>
 			</div>
 			<div class="media">
@@ -189,8 +157,8 @@
 					<img src="assets/img/avatar4_50.jpg" alt="" class="media-object avatar-rounded">
 				</a>
 				<div class="media-body">
-					<h4 class="media-heading">Peteršilj velja za eno najbolj zdravilnih zelišč</h4>
-					Peteršilj je danes poznan tako v kulinariki kot domači lekarni in zdravstvenih učinkovinah, medtem ko je moral biti v Homerjevih časih na vsaki slavnostni pojedini, saj so se bali zastrupitev.
+					<h4 class="media-heading">Jeza škodi srcu</h4>
+					Izživljanje jeze sicer omogoča tistemu, ki je jezen, da si "olajša dušo", ko je to najbolj potrebno, vendar dolgoročno odpira vrata težavam s srcem.
 				</div>
 			</div>
 
