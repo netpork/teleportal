@@ -26,12 +26,17 @@ Teleportal.header = function() {
 			page = 'novice-authorised';
 		}
 
+		if (page === 'video' && Teleportal.getAuthorised()) {
+			page = 'video-authorised';
+		}
+
 		
 		Teleportal.getContext().render(Teleportal.getTemplatesPath() + '/pages/' + page + '.ms')
 		.appendTo(Teleportal.getMainContainer())
 		.then(function() {
 			if (page === 'domov') {
 				makeBars();
+				makeWeather();
 			}
 			// console.log(bolezen);
 
@@ -58,6 +63,12 @@ Teleportal.header = function() {
     			type: 'bar',
     			height: '16'
     		});
+	}
+
+	function makeWeather() {
+		var weather = new Skycons();
+		weather.add('weather', Skycons.PARTLY_CLOUDY_DAY);
+		weather.play();
 	}
 
 	return {

@@ -87,3 +87,7 @@
     padding-bottom: 12px;
   }
 }
+
+.navbar {
+	margin-bottom: 10px !important;
+}

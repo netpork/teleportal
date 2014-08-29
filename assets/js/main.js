@@ -32,6 +32,7 @@ var Teleportal = (function($) {
 				isAuthorised();
 				ctx = this;
 				Teleportal.header.init('domov', 0);
+
 				console.count('main');
 			});
 
