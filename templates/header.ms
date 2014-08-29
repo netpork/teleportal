@@ -31,7 +31,7 @@
           <a href="#/bolezni">Bolezni</a>
         </li>
         <li>
-          <a href="#">Video</a>
+          <a href="#/video">Video</a>
         </li>
         <li>
           <a href="#">Ustanove</a>

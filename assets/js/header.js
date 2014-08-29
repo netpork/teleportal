@@ -22,6 +22,10 @@ Teleportal.header = function() {
 			page = 'domov-authorised';
 		}
 
+		if (page === 'novice' && Teleportal.getAuthorised()) {
+			page = 'novice-authorised';
+		}
+
 		
 		Teleportal.getContext().render(Teleportal.getTemplatesPath() + '/pages/' + page + '.ms')
 		.appendTo(Teleportal.getMainContainer())

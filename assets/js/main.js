@@ -60,6 +60,13 @@ var Teleportal = (function($) {
 				Teleportal.header.init('bolezni', 2, bolezen);
 			});
 
+			this.get('#/video', function() {
+				emptyMain();
+				isAuthorised();
+				ctx = this;
+				Teleportal.header.init('video', 3);
+			});
+
 		});
 
 		app.debug = true;
