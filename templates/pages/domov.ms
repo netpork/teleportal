@@ -4,9 +4,9 @@
 			<div class="col-md-4">
 				<canvas id="weather" width="64" height="64"></canvas>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4" style="color: silver;">
 				<h5>Sreda</h5>
-				<h5>13.08.2014.</h4>
+				<h5>13.08.2014.</h5>
 			</div>
 		</div>
 
