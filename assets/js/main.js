@@ -68,6 +68,15 @@ var Teleportal = (function($) {
 				Teleportal.header.init('video', 3);
 			});
 
+			this.get('#/forum-list', function() {
+				emptyMain();
+				isAuthorised();
+				ctx = this;
+				Teleportal.header.init('forum_1', 4);
+			});
+
+
+
 		});
 
 		app.debug = true;

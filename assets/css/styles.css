@@ -91,3 +91,135 @@
 .navbar {
 	margin-bottom: 10px !important;
 }
+
+@font-face {
+    font-family: 'Patient-icons';
+    src: url('http://cdn.patient.co.uk/res/91828a3477e64c8e99a478b3a8aa5a61-Patient-icons.eot?') format('eot'),url('http://cdn.patient.co.uk/res/91828a3477e64c8e99a478b3a8aa5a61-Patient-icons.woff') format('woff'),url('http://cdn.patient.co.uk/res/91828a3477e64c8e99a478b3a8aa5a61-Patient-icons.ttf') format('truetype')
+}
+
+
+.forum-list-item {
+	margin-bottom: 10px;
+}
+
+	.forum-icon	{
+		font-family: 'Patient-icons';
+		font-size: 30px;
+		font-weight: normal !important;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		vertical-align: middle;
+		border: 0;
+		font-style: normal;
+		color: white;
+		padding: 4px 6px;
+		line-height: 33px;
+		width: 39px;
+		height: 59px;
+	}
+
+	.forum-group {
+		padding: 6px 5px 0 10px;
+		background-color: #eee;
+		border-bottom: 1px solid #ccc;
+		height: 59px;
+		display: inline-block;
+		width: 90%;
+	}
+
+		.forum-title {
+			width: 70%;
+			display: inline-block;
+			vertical-align: top;
+		}
+
+	.grp-lnk {
+		display: block;
+		font-size: 1.5em;
+		line-height: 1.0em;
+		font-weight: bold;
+	}
+
+	.cat-stats {
+		text-transform: uppercase;
+		color: #6e7580;
+		/*font-size: 0.9em;*/
+		text-align: left;
+		padding: 0px;
+		width: 160px;
+		display: inline-block;
+	}
+
+		.cat-numbers {
+			vertical-align: top;
+			display: inline-block;
+			zoom: 1;
+			font-size: 10px;
+		}
+
+			.cat-numbers strong {
+				font-size: 17px;
+			}
+
+		.members {
+			display: inline-block;
+			vertical-align: top;
+			text-transform: uppercase;
+			color: #6e7580;
+		}
+
+			.members-text {
+				font-size: 10px;
+				display: block;
+				text-align: center;
+			}
+		
+		.patient-icon {
+			font-family: 'Patient-icons';
+			font-size: 23px;
+			font-weight: normal!important;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			vertical-align: middle;
+			border: 0;
+			font-style: normal;
+			text-transform: lowercase;
+		}
+
+		
+
+		.blood-bg {
+			background-color: #be1e2d;
+		}
+
+		.allergy-bg {
+			background-color: #E67D38;
+		}
+		
+		.mntl-bg {
+			background-color: #13a89e;
+		}
+
+		.chst-bg {
+			background-color: #393a96;
+		}
+
+		.bone-bg {
+			background-color: #7da53f;
+		}
+
+		.brain-bg {
+			background-color: #f1592a;
+		}
+
+		.horm-bg {
+			background-color: #da1c5c;
+		}
+		
+		.gut-bg {
+			background-color: #0f75bc;
+		}
+
+		.wom-bg {
+			background-color: #d5571d;
+		}

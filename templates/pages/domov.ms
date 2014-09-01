@@ -6,7 +6,7 @@
 			</div>
 			<div class="col-md-4" style="color: silver;">
 				<h5>Sreda</h5>
-				<h5>13.08.2014.</h5>
+				<h5>30.08.2014.</h5>
 			</div>
 		</div>
 

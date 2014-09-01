@@ -34,7 +34,7 @@ Teleportal.header = function() {
 		Teleportal.getContext().render(Teleportal.getTemplatesPath() + '/pages/' + page + '.ms')
 		.appendTo(Teleportal.getMainContainer())
 		.then(function() {
-			if (page === 'domov') {
+			if (page === 'domov' || page === 'domov-authorised') {
 				makeBars();
 				makeWeather();
 			}

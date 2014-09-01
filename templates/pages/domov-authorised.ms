@@ -1,5 +1,16 @@
 <section>
 	<div class="container-fluid">
+
+		<div class="pull-left">
+			<div class="col-md-4">
+				<canvas id="weather" width="64" height="64"></canvas>
+			</div>
+			<div class="col-md-4" style="color: silver;">
+				<h5>Sreda</h5>
+				<h5>30.08.2014.</h5>
+			</div>
+		</div>
+
 		<div class="pull-right" data-target="#stats" data-toggle="collapse" style="margin-right: 15px; cursor: pointer;">
 			<span class="glyphicon glyphicon-stats"></span>
 			<b class="caret"></b>

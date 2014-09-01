@@ -34,10 +34,10 @@
           <a href="#/video">Video</a>
         </li>
         <li>
-          <a href="#">Ustanove</a>
+          <a href="#/">Ustanove</a>
         </li>
         <li>
-          <a href="#">Forum</a>
+          <a href="#/forum-list">Forum</a>
         </li>
 
         <!-- for registered users only -->
