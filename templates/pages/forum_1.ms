@@ -9,18 +9,18 @@
 			<div class="forum-group">
 
 				<div class="forum-title">		
-					<a href="#" class="grp-lnk">Anxiety Disorders</a>
-					<a href="#" class="cat-lnk">Mental health</a>
+					<a href="#/forum/anxiety/Anxiety Disorders/Mental health" data-forum="anxiety" class="forum-link grp-lnk">Anxiety Disorders</a>
+					<a href="#/forum/anxiety/Anxiety Disorders/Mental health" data-forum="anxiety" class="forum-link cat-lnk">Mental health</a>
 				</div>
 
 				<div class="cat-stats">
 					<div class="cat-numbers">
 						<div class="cat-posts">
-							<strong>1,894</strong>
+							<strong>2,894</strong>
 							discussions
 						</div>
 						<div class="cat-comments">
-							<strong>8,944</strong>
+							<strong>3,314</strong>
 							comments
 						</div>
 					</div>
@@ -28,7 +28,7 @@
 
 				<div class="members">
 					<span class="patient-icon">l</span>
-					<strong>1,392</strong>
+					<strong>392</strong>
 					<span class="members-text">members</span>
 				</div>
 			
@@ -45,18 +45,18 @@
 			<div class="forum-group">
 
 				<div class="forum-title">		
-					<a href="#" class="grp-lnk">Pulmonary Disease</a>
-					<a href="#" class="cat-lnk">Chest and lungs</a>
+					<a href="#" data-forum="anxiety4" class="forum-link grp-lnk">Pulmonary Disease</a>
+					<a href="#" data-forum="anxiety4" class="forum-link cat-lnk">Chest and lungs</a>
 				</div>
 
 				<div class="cat-stats">
 					<div class="cat-numbers">
 						<div class="cat-posts">
-							<strong>1,894</strong>
+							<strong>1,113</strong>
 							discussions
 						</div>
 						<div class="cat-comments">
-							<strong>8,944</strong>
+							<strong>2,084</strong>
 							comments
 						</div>
 					</div>
@@ -64,7 +64,7 @@
 
 				<div class="members">
 					<span class="patient-icon">l</span>
-					<strong>1,392</strong>
+					<strong>2,340</strong>
 					<span class="members-text">members</span>
 				</div>
 			
@@ -88,11 +88,11 @@
 				<div class="cat-stats">
 					<div class="cat-numbers">
 						<div class="cat-posts">
-							<strong>1,894</strong>
+							<strong>494</strong>
 							discussions
 						</div>
 						<div class="cat-comments">
-							<strong>8,944</strong>
+							<strong>1,944</strong>
 							comments
 						</div>
 					</div>
@@ -100,7 +100,7 @@
 
 				<div class="members">
 					<span class="patient-icon">l</span>
-					<strong>1,392</strong>
+					<strong>392</strong>
 					<span class="members-text">members</span>
 				</div>
 			
@@ -123,11 +123,11 @@
 				<div class="cat-stats">
 					<div class="cat-numbers">
 						<div class="cat-posts">
-							<strong>1,894</strong>
+							<strong>756</strong>
 							discussions
 						</div>
 						<div class="cat-comments">
-							<strong>8,944</strong>
+							<strong>1,340</strong>
 							comments
 						</div>
 					</div>
@@ -135,7 +135,7 @@
 
 				<div class="members">
 					<span class="patient-icon">l</span>
-					<strong>1,392</strong>
+					<strong>732</strong>
 					<span class="members-text">members</span>
 				</div>
 			
@@ -159,11 +159,11 @@
 				<div class="cat-stats">
 					<div class="cat-numbers">
 						<div class="cat-posts">
-							<strong>1,894</strong>
+							<strong>1,531</strong>
 							discussions
 						</div>
 						<div class="cat-comments">
-							<strong>8,944</strong>
+							<strong>2,235</strong>
 							comments
 						</div>
 					</div>
@@ -171,7 +171,7 @@
 
 				<div class="members">
 					<span class="patient-icon">l</span>
-					<strong>1,392</strong>
+					<strong>4,322</strong>
 					<span class="members-text">members</span>
 				</div>
 			
@@ -194,11 +194,11 @@
 				<div class="cat-stats">
 					<div class="cat-numbers">
 						<div class="cat-posts">
-							<strong>1,894</strong>
+							<strong>894</strong>
 							discussions
 						</div>
 						<div class="cat-comments">
-							<strong>8,944</strong>
+							<strong>1,234</strong>
 							comments
 						</div>
 					</div>
@@ -206,7 +206,7 @@
 
 				<div class="members">
 					<span class="patient-icon">l</span>
-					<strong>1,392</strong>
+					<strong>467</strong>
 					<span class="members-text">members</span>
 				</div>
 			
@@ -229,11 +229,11 @@
 				<div class="cat-stats">
 					<div class="cat-numbers">
 						<div class="cat-posts">
-							<strong>1,894</strong>
+							<strong>1,345</strong>
 							discussions
 						</div>
 						<div class="cat-comments">
-							<strong>8,944</strong>
+							<strong>244</strong>
 							comments
 						</div>
 					</div>
@@ -241,7 +241,7 @@
 
 				<div class="members">
 					<span class="patient-icon">l</span>
-					<strong>1,392</strong>
+					<strong>500</strong>
 					<span class="members-text">members</span>
 				</div>
 			
@@ -264,11 +264,11 @@
 				<div class="cat-stats">
 					<div class="cat-numbers">
 						<div class="cat-posts">
-							<strong>1,894</strong>
+							<strong>987</strong>
 							discussions
 						</div>
 						<div class="cat-comments">
-							<strong>8,944</strong>
+							<strong>3,478</strong>
 							comments
 						</div>
 					</div>
@@ -276,7 +276,7 @@
 
 				<div class="members">
 					<span class="patient-icon">l</span>
-					<strong>1,392</strong>
+					<strong>657</strong>
 					<span class="members-text">members</span>
 				</div>
 			
@@ -299,11 +299,46 @@
 				<div class="cat-stats">
 					<div class="cat-numbers">
 						<div class="cat-posts">
-							<strong>1,894</strong>
+							<strong>1,231</strong>
 							discussions
 						</div>
 						<div class="cat-comments">
-							<strong>8,944</strong>
+							<strong>3,212</strong>
+							comments
+						</div>
+					</div>
+				</div>
+
+				<div class="members">
+					<span class="patient-icon">l</span>
+					<strong>500</strong>
+					<span class="members-text">members</span>
+				</div>
+			
+			</div>
+
+		</section>
+
+		<section class="row forum-list-item">
+
+			<div class="col-md-1 forum-icon gut-bg">
+				=
+			</div>
+			<div class="forum-group">
+
+				<div class="forum-title">		
+					<a href="#" class="grp-lnk">Orlistat</a>
+					<a href="#" class="cat-lnk">Gut, bowel and stomach</a>
+				</div>
+
+				<div class="cat-stats">
+					<div class="cat-numbers">
+						<div class="cat-posts">
+							<strong>0,745</strong>
+							discussions
+						</div>
+						<div class="cat-comments">
+							<strong>7,564</strong>
 							comments
 						</div>
 					</div>
@@ -318,6 +353,7 @@
 			</div>
 
 		</section>
+
 
 
 	</div>

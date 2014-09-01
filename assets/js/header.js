@@ -5,6 +5,10 @@ Teleportal.header = function() {
 		inject(page, active, bolezen);
 	}
 
+	function initForum(page, active, topic, header, subtext) {
+		injectForum(page, active, topic, header, subtext);
+	}
+
 	function inject(page, active, bolezen) {
 		Teleportal.getContext()
 		.render(Teleportal.getTemplatesPath() + 'header.ms', {authorised: Teleportal.getAuthorised()})
@@ -12,6 +16,18 @@ Teleportal.header = function() {
 		.then(function() {
 			console.log('header loaded');
 			insertPage(page, bolezen);
+			Teleportal.initEvents();
+			setActive(active);
+		});
+	}
+
+	function injectForum(page, active, topic, header, subtext) {
+		Teleportal.getContext()
+		.render(Teleportal.getTemplatesPath() + 'header.ms', {authorised: Teleportal.getAuthorised()})
+		.appendTo(Teleportal.getMainContainer())
+		.then(function() {
+			console.log('header loaded');
+			insertForum(page, topic, header, subtext);
 			Teleportal.initEvents();
 			setActive(active);
 		});
@@ -31,7 +47,7 @@ Teleportal.header = function() {
 		}
 
 		
-		Teleportal.getContext().render(Teleportal.getTemplatesPath() + '/pages/' + page + '.ms')
+		Teleportal.getContext().render(Teleportal.getTemplatesPath() + 'pages/' + page + '.ms')
 		.appendTo(Teleportal.getMainContainer())
 		.then(function() {
 			if (page === 'domov' || page === 'domov-authorised') {
@@ -47,9 +63,24 @@ Teleportal.header = function() {
 				$(window).scrollTop(top);
 			}
 
+			// if (page === 'forum_1') {
+			// 	Teleportal.forum.init();
+			// }
+
 		});
 	}
 
+	function insertForum(page, topic, header, subtext) {
+		Teleportal.getContext().render(Teleportal.getTemplatesPath() + 'pages/' + page + '.ms', {
+			'header': header,
+			'subtext': subtext
+		})
+		.appendTo(Teleportal.getMainContainer())
+		.then(function() {
+			Teleportal.forum.forumPartial(topic);
+		});
+	}
+	
 	function setActive(idx) {
 		var tabs = $('#navigation').find('li');
 		$(tabs[idx]).addClass('active');
@@ -72,7 +103,8 @@ Teleportal.header = function() {
 	}
 
 	return {
-		init: init
+		init: init,
+		initForum: initForum
 	};
 
 }();

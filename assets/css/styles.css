@@ -97,9 +97,10 @@
     src: url('http://cdn.patient.co.uk/res/91828a3477e64c8e99a478b3a8aa5a61-Patient-icons.eot?') format('eot'),url('http://cdn.patient.co.uk/res/91828a3477e64c8e99a478b3a8aa5a61-Patient-icons.woff') format('woff'),url('http://cdn.patient.co.uk/res/91828a3477e64c8e99a478b3a8aa5a61-Patient-icons.ttf') format('truetype')
 }
 
-
 .forum-list-item {
 	margin-bottom: 10px;
+		text-align: left;
+
 }
 
 	.forum-icon	{
@@ -128,7 +129,7 @@
 	}
 
 		.forum-title {
-			width: 70%;
+			width: 76%;
 			display: inline-block;
 			vertical-align: top;
 		}
@@ -150,6 +151,10 @@
 		display: inline-block;
 	}
 
+		.cat-posts {
+			/*margin: 10px;*/
+		}
+
 		.cat-numbers {
 			vertical-align: top;
 			display: inline-block;
@@ -159,6 +164,10 @@
 
 			.cat-numbers strong {
 				font-size: 17px;
+				width: 70px;
+				display: inline-block;
+				text-align: right;
+				margin-right: 5px;
 			}
 
 		.members {
@@ -187,6 +196,25 @@
 		}
 
 		
+		.forum-avatar {
+			font-size: 30px;
+			text-align: center;
+		}
+
+		.forum-title-text {
+/*			display: inline-block;
+			vertical-align: bottom;
+*/			font-weight: bold;
+			padding-top: 10px;
+		}
+
+		.forum-count-text {
+			padding-top: 10px;
+		}
+
+		.center-text {
+			text-align: center;
+		}
 
 		.blood-bg {
 			background-color: #be1e2d;

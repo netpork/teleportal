@@ -72,9 +72,21 @@ var Teleportal = (function($) {
 				emptyMain();
 				isAuthorised();
 				ctx = this;
-				Teleportal.header.init('forum_1', 4);
+				Teleportal.header.init('forum_1', 5);
 			});
 
+			this.get('#/forum/:topic/:header/:subtext', function() {
+				emptyMain();
+				isAuthorised();
+				ctx = this;
+				Teleportal.header.initForum(
+					'forum-topic',
+					5,
+					this.params.topic,
+					this.params.header,
+					this.params.subtext
+				);
+			});
 
 
 		});
