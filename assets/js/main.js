@@ -88,6 +88,20 @@ var Teleportal = (function($) {
 				);
 			});
 
+			this.get('#/forum-question/:topic/:idx', function() {
+				console.log('question');
+				emptyMain();
+				isAuthorised();
+				ctx = this;
+				Teleportal.header.initQuestion(
+					'forum-question',
+					5,
+					this.params.topic,
+					this.params.idx
+					);
+			});
+
+
 
 		});
 

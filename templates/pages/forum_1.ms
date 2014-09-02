@@ -45,8 +45,8 @@
 			<div class="forum-group">
 
 				<div class="forum-title">		
-					<a href="#" data-forum="anxiety4" class="forum-link grp-lnk">Pulmonary Disease</a>
-					<a href="#" data-forum="anxiety4" class="forum-link cat-lnk">Chest and lungs</a>
+					<a href="#/forum/anxiety/Pulmonary Disease/Chest and lungs" data-forum="anxiety4" class="forum-link grp-lnk">Pulmonary Disease</a>
+					<a href="#/forum/anxiety/Pulmonary Disease/Chest and lungs" data-forum="anxiety4" class="forum-link cat-lnk">Chest and lungs</a>
 				</div>
 
 				<div class="cat-stats">
@@ -81,8 +81,8 @@
 			<div class="forum-group">
 
 				<div class="forum-title">		
-					<a href="#" class="grp-lnk">Polymyalgia Rheumatica and GCA</a>
-					<a href="#" class="cat-lnk">Bones, joints and muscles</a>
+					<a href="#/forum/anxiety/Polymyalgia Rheumatica and GCA/Bones joints and muscles" class="grp-lnk">Polymyalgia Rheumatica and GCA</a>
+					<a href="#/forum/anxiety/Polymyalgia Rheumatica and GCA/Bones joints and muscles" class="cat-lnk">Bones, joints and muscles</a>
 				</div>
 
 				<div class="cat-stats">
@@ -116,8 +116,8 @@
 			<div class="forum-group">
 
 				<div class="forum-title">		
-					<a href="#" class="grp-lnk">Citalopram</a>
-					<a href="#" class="cat-lnk">Brain and nerves</a>
+					<a href="#/forum/anxiety/Citalopram/Brain and nerves" class="grp-lnk">Citalopram</a>
+					<a href="#/forum/anxiety/Citalopram/Brain and nerves" class="cat-lnk">Brain and nerves</a>
 				</div>
 
 				<div class="cat-stats">
@@ -152,8 +152,8 @@
 			<div class="forum-group">
 
 				<div class="forum-title">		
-					<a href="#" class="grp-lnk">Hyperthyroidism and Grave's Disease</a>
-					<a href="#" class="cat-lnk">Diabetes and other hormone problems</a>
+					<a href="#/forum/anxiety/Hyperthyroidism and Graves Disease/Diabetes and other hormone problems" class="grp-lnk">Hyperthyroidism and Grave's Disease</a>
+					<a href="#/forum/anxiety/Hyperthyroidism and Graves Disease/Diabetes and other hormone problems" class="cat-lnk">Diabetes and other hormone problems</a>
 				</div>
 
 				<div class="cat-stats">
@@ -187,8 +187,8 @@
 			<div class="forum-group">
 
 				<div class="forum-title">		
-					<a href="#" class="grp-lnk">Depression</a>
-					<a href="#" class="cat-lnk">Mental health</a>
+					<a href="#/forum/anxiety/Depression/Mental health" class="grp-lnk">Depression</a>
+					<a href="#/forum/anxiety/Depression/Mental health" class="cat-lnk">Mental health</a>
 				</div>
 
 				<div class="cat-stats">
@@ -222,8 +222,8 @@
 			<div class="forum-group">
 
 				<div class="forum-title">		
-					<a href="#" class="grp-lnk">Irritable Bowel Syndrome</a>
-					<a href="#" class="cat-lnk">Gut, bowel and stomach</a>
+					<a href="#/forum/anxiety/Irritable Bowel Syndrome/Gut bowel and stomach" class="grp-lnk">Irritable Bowel Syndrome</a>
+					<a href="#/forum/anxiety/Irritable Bowel Syndrome/Gut bowel and stomach" class="cat-lnk">Gut, bowel and stomach</a>
 				</div>
 
 				<div class="cat-stats">
@@ -257,8 +257,8 @@
 			<div class="forum-group">
 
 				<div class="forum-title">		
-					<a href="#" class="grp-lnk">Lichen Sclerosus</a>
-					<a href="#" class="cat-lnk">Women's health</a>
+					<a href="#/forum/anxiety/Lichen Sclerosus/Womens health" class="grp-lnk">Lichen Sclerosus</a>
+					<a href="#/forum/anxiety/Lichen Sclerosus/Womens health" class="cat-lnk">Women's health</a>
 				</div>
 
 				<div class="cat-stats">
@@ -292,8 +292,8 @@
 			<div class="forum-group">
 
 				<div class="forum-title">		
-					<a href="#" class="grp-lnk">Mirtazapine</a>
-					<a href="#" class="cat-lnk">Brain and nerves</a>
+					<a href="#/forum/anxiety/Mirtazapine/Brain and nerves" class="grp-lnk">Mirtazapine</a>
+					<a href="#/forum/anxiety/Mirtazapine/Brain and nerves" class="cat-lnk">Brain and nerves</a>
 				</div>
 
 				<div class="cat-stats">
@@ -327,8 +327,8 @@
 			<div class="forum-group">
 
 				<div class="forum-title">		
-					<a href="#" class="grp-lnk">Orlistat</a>
-					<a href="#" class="cat-lnk">Gut, bowel and stomach</a>
+					<a href="#/forum/anxiety/Orlistat/Gut-bowel and stomach" class="grp-lnk">Orlistat</a>
+					<a href="#/forum/anxiety/Orlistat/Gut-bowel and stomach" class="cat-lnk">Gut, bowel and stomach</a>
 				</div>
 
 				<div class="cat-stats">
@@ -358,3 +358,5 @@
 
 	</div>
 </section>
+
+<section class="telecom-footer"></section>

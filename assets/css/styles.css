@@ -216,6 +216,10 @@
 			text-align: center;
 		}
 
+		.right-text {
+			text-align: right;
+		}
+
 		.blood-bg {
 			background-color: #be1e2d;
 		}

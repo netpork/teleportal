@@ -9,6 +9,10 @@ Teleportal.header = function() {
 		injectForum(page, active, topic, header, subtext);
 	}
 
+	function initQuestion(page, active, topic, index) {
+		injectQuestion(page, active, topic, index);
+	}
+
 	function inject(page, active, bolezen) {
 		Teleportal.getContext()
 		.render(Teleportal.getTemplatesPath() + 'header.ms', {authorised: Teleportal.getAuthorised()})
@@ -31,6 +35,20 @@ Teleportal.header = function() {
 			Teleportal.initEvents();
 			setActive(active);
 		});
+	}
+
+	function injectQuestion(page, active, topic, index) {
+		console.log('qq');
+		Teleportal.getContext()
+		.render(Teleportal.getTemplatesPath() + 'header.ms', {authorised: Teleportal.getAuthorised()})
+		.appendTo(Teleportal.getMainContainer())
+		.then(function() {
+			console.log('header loaded');
+			insertQuestion(page, topic, index);
+			Teleportal.initEvents();
+			setActive(active);
+		});
+
 	}
 
 	function insertPage(page, bolezen) {
@@ -73,11 +91,20 @@ Teleportal.header = function() {
 	function insertForum(page, topic, header, subtext) {
 		Teleportal.getContext().render(Teleportal.getTemplatesPath() + 'pages/' + page + '.ms', {
 			'header': header,
-			'subtext': subtext
+			'subtext': subtext,
+			'authored': Teleportal.getAuthorised()
 		})
 		.appendTo(Teleportal.getMainContainer())
 		.then(function() {
 			Teleportal.forum.forumPartial(topic);
+		});
+	}
+
+	function insertQuestion(page, topic, index) {
+		Teleportal.getContext().render(Teleportal.getTemplatesPath() + 'pages/' + page + '.ms', Teleportal.forum.getQuestion(topic, index))
+		.appendTo(Teleportal.getMainContainer())
+		.then(function() {
+			// Teleportal.forum.forumPartial(topic);
 		});
 	}
 	
@@ -104,7 +131,8 @@ Teleportal.header = function() {
 
 	return {
 		init: init,
-		initForum: initForum
+		initForum: initForum,
+		initQuestion: initQuestion
 	};
 
 }();
