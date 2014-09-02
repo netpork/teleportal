@@ -34,7 +34,7 @@
           <a href="#/video">Video</a>
         </li>
         <li>
-          <a href="#/">Ustanove</a>
+          <a href="#/ustanove">Ustanove</a>
         </li>
         <li>
           <a href="#/forum-list">Forum</a>

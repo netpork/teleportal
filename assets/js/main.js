@@ -101,7 +101,12 @@ var Teleportal = (function($) {
 					);
 			});
 
-
+			this.get('#/ustanove', function() {
+				emptyMain();
+				isAuthorised();
+				ctx = this;
+				Teleportal.header.init('ustanove', 4);
+			});
 
 		});
 

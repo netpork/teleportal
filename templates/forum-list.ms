@@ -1,6 +1,6 @@
 <div class="row">
 
-	<div class="col-md-12">
+	<div class="col-md-12" style="border-bottom: 1px solid #efefef;">
 		<div class="col-md-1 center-text">
 			<span class="glyphicon glyphicon-user forum-avatar"></span>	
 		</div>
