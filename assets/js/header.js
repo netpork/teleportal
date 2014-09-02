@@ -64,6 +64,10 @@ Teleportal.header = function() {
 			page = 'video-authorised';
 		}
 
+		if (page === 'ustanove' && Teleportal.getAuthorised()) {
+			page = 'ustanove-authorised';
+		}
+
 		
 		Teleportal.getContext().render(Teleportal.getTemplatesPath() + 'pages/' + page + '.ms')
 		.appendTo(Teleportal.getMainContainer())

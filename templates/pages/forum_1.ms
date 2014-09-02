@@ -334,7 +334,7 @@
 				<div class="cat-stats">
 					<div class="cat-numbers">
 						<div class="cat-posts">
-							<strong>0,745</strong>
+							<strong>745</strong>
 							discussions
 						</div>
 						<div class="cat-comments">

@@ -4,10 +4,9 @@
 
 		<div class="row">
 			<div class="col-md-12">
-				<p class="home-header bg-info">Ustanove A - Z</p>
+				<p class="home-header bg-info">Svoje ustanove</p>
 			</div>
 		</div>
-
 
 		<div id="" class="panel panel-default">
 		    <div class="panel-heading">
@@ -44,6 +43,15 @@
 				</div>
 		    </div>
 		    </div>
+
+
+
+		<div class="row">
+			<div class="col-md-12">
+				<p class="home-header bg-info">Ustanove A - Z</p>
+			</div>
+		</div>
+
 
 		<div id="" class="panel panel-default">
 		    <div class="panel-heading">
