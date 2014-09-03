@@ -108,6 +108,22 @@ var Teleportal = (function($) {
 				Teleportal.header.init('ustanove', 4);
 			});
 
+			this.get('#/question-list', function() {
+				emptyMain();
+				isAuthorised();
+				ctx = this;
+				Teleportal.header.init('question-list', 6);
+			});
+
+			this.get('#/question-answers', function() {
+				emptyMain();
+				isAuthorised();
+				ctx = this;
+				Teleportal.header.init('question-answers', 6);
+			});
+
+
+
 		});
 
 		app.debug = true;

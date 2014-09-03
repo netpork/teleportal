@@ -85,6 +85,9 @@ Teleportal.header = function() {
 				$(window).scrollTop(top);
 			}
 
+			if (page === 'question-list' || page === 'question-answers') {
+				makeRates();
+			}
 			// if (page === 'forum_1') {
 			// 	Teleportal.forum.init();
 			// }
@@ -131,6 +134,10 @@ Teleportal.header = function() {
 		var weather = new Skycons();
 		weather.add('weather', Skycons.PARTLY_CLOUDY_DAY);
 		weather.play();
+	}
+
+	function makeRates() {
+		$('input.rating').rating();
 	}
 
 	return {

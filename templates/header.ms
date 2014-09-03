@@ -43,12 +43,12 @@
         <!-- for registered users only -->
         {{#authorised}}
           <li>
-          <a href="#">Vprašaj</a>
+          <a href="#/question-list">Vprašaj zdravnika</a>
         </li>
-        <li>
+<!--         <li>
           <a href="#">Naročanje</a>
         </li>
-        {{/authorised}}
+ -->        {{/authorised}}
 
         </ul>
         <!--  -->

@@ -98,9 +98,9 @@
 }
 
 .forum-list-item {
+	margin-left: 59px;
 	margin-bottom: 10px;
-		text-align: left;
-
+	text-align: left;
 }
 
 	.forum-icon	{
@@ -127,6 +127,17 @@
 		display: inline-block;
 		width: 90%;
 	}
+
+	.forum-question-group {
+		padding: 6px 5px 0 10px;
+		background-color: #eee;
+		border-bottom: 1px solid #ccc;
+		height: 59px;
+		display: inline-block;
+		width: 70%;
+	}
+
+
 
 		.forum-title {
 			width: 76%;
@@ -207,6 +218,33 @@
 */			font-weight: bold;
 			padding-top: 10px;
 		}
+
+
+
+.doctor-icon-wrapper {
+	/*display: inline-block;*/
+
+}
+
+	.avatar-text {
+		text-align: center;
+	}
+
+
+	.doctor-icon {
+		height: 59px;
+		text-align: right;
+	}
+
+	.rate-icons {
+		font-size: 20px;
+	}
+
+		.doctor-rate-icons {
+			margin-top: 5px;
+		}
+
+
 
 		.forum-count-text {
 			padding-top: 10px;
