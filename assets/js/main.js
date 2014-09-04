@@ -5,7 +5,65 @@ var Teleportal = (function($) {
 	app, ctx,
 	templatesPath = 'templates/',
 	storage = $.sessionStorage,
-	authorised = false
+	authorised = false,
+
+	doctors = {
+		'stella': {
+			'picture': 'doctor1.jpg',
+			'name': 'dr Stella Rudovšek',
+			'email': 'stella.rudovsek@testmail.org',
+			'spec': 'Otorinolaringologija',
+			'place': 'Univerzitetni klinični center Ljubljana',
+			'description': 'UKC Ljubljana SPS Interna klinika KO za gastroenterologijo',	
+			'tel': '+386 (0)1 522 21 13',
+			'fax': '+386 (0)1 522 80 70', 
+			'average': 4.3
+		},
+		'albert': {
+			'picture': 'doctor2.jpg',
+			'name': 'dr. med. Albert Dimić',
+			'email': 'albert.dimic@testmail.org',
+			'spec': 'Anesteziologija',
+			'place': 'Univerzitetni klinični center Ljubljana',
+			'description': 'UKC Ljubljana SPS Interna klinika KO za gastroenterologijo',	
+			'tel': '+386 (0)1 522 21 13',
+			'fax': '+386 (0)1 522 80 70', 
+			'average': 4.7
+		},
+		'kovac': {
+			'picture': 'doctor4.jpg',
+			'name': 'dr Primož Kovač',
+			'email': 'primoz.kovac@testmail.org',
+			'spec': 'Ortopedska kirurgija',
+			'place': 'Univerzitetni klinični center Ljubljana',
+			'description': 'UKC Ljubljana SPS Interna klinika KO za gastroenterologijo',	
+			'tel': '+386 (0)1 522 21 13',
+			'fax': '+386 (0)1 522 80 70', 
+			'average': 3.3
+		},
+		'mina': {
+			'picture': 'doctor3.jpg',
+			'name': 'dr Mina Kaleba',
+			'email': 'mina.kaleba@testmail.org',
+			'spec': 'Pediatrija',
+			'place': 'Univerzitetni klinični center Ljubljana',
+			'description': 'UKC Ljubljana SPS Interna klinika KO za gastroenterologijo',	
+			'tel': '+386 (0)1 522 21 13',
+			'fax': '+386 (0)1 522 80 70', 
+			'average': 5.0
+		},
+		'fjodor': {
+			'picture': 'doctor5.jpg',
+			'name': 'dr.med. Fjodor Rusovski',
+			'email': 'fjodor.rusovski@testmail.org',
+			'spec': 'Gastroenterologija',
+			'place': 'Univerzitetni klinični center Ljubljana',
+			'description': 'UKC Ljubljana SPS Interna klinika KO za gastroenterologijo',	
+			'tel': '+386 (0)1 522 21 13',
+			'fax': '+386 (0)1 522 80 70', 
+			'average': 4.8
+		}
+	}
 	;
 
 	function init() {
@@ -112,18 +170,31 @@ var Teleportal = (function($) {
 				emptyMain();
 				isAuthorised();
 				ctx = this;
-				Teleportal.header.init('question-list', 6);
+				authored();
+				if (authorised) {
+					Teleportal.header.init('question-list', 6);
+				}
 			});
 
 			this.get('#/question-answers', function() {
 				emptyMain();
 				isAuthorised();
 				ctx = this;
-				Teleportal.header.init('question-answers', 6);
+				authored();
+				if (authorised) {
+					Teleportal.header.init('question-answers', 6);
+				}
 			});
 
-
-
+			this.get('#/doctor/:which', function() {
+				emptyMain();
+				isAuthorised();
+				ctx = this;
+				authored();
+				if (authorised) {
+					Teleportal.header.initDoctors('zdravnik', 6, this.params.which);
+				}
+			});
 		});
 
 		app.debug = true;
@@ -136,6 +207,12 @@ var Teleportal = (function($) {
 		authorised = storage.isSet('authorised');
 		console.log(authorised);
 		return authorised;
+	}
+
+	function authored() {
+		if (!authorised) {
+			ctx.redirect('#/');
+		}
 	}
 
 	function logIn() {
@@ -181,14 +258,21 @@ var Teleportal = (function($) {
 		init: init,
 		getAuthorised: isAuthorised,
 		initEvents: initEvents,
+		
 		getMainContainer: function() {
 			return mainContainer;
 		},
+		
 		getContext: function() {
 			return ctx;
 		},
+		
 		getTemplatesPath: function() {
 			return templatesPath;
+		},
+		
+		getDoctor: function(which) {
+			return doctors[which];
 		}
 	};
 

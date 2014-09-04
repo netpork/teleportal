@@ -22,7 +22,7 @@
 
 		<div class="row">
 			<div class="col-md-offset-1 col-md-1 right-text">
-				<a href="#">
+				<a href="#/doctor/stella">
 					<img src="assets/img/doctor1.jpg" class="doctor-icon avatar-rounded" alt="">
 					<div class="avatar-text">dr Stella</div>
 				</a>
@@ -47,7 +47,7 @@
 
 		<div class="row">
 			<div class="col-md-offset-1 col-md-1 right-text">
-				<a href="#">
+				<a href="#/doctor/albert">
 					<img src="assets/img/doctor2.jpg" class="doctor-icon avatar-rounded" alt="">
 					<div class="avatar-text">dr Albert</div>
 				</a>
@@ -73,7 +73,7 @@
 
 		<div class="row">
 			<div class="col-md-offset-1 col-md-1 right-text">
-				<a href="#">
+				<a href="#/doctor/kovac">
 					<img src="assets/img/doctor4.jpg" class="doctor-icon avatar-rounded" alt="">
 					<div class="avatar-text">dr Kovač</div>
 				</a>
@@ -118,7 +118,7 @@
 
 		<div class="row">
 			<div class="col-md-offset-1 col-md-1 right-text">
-				<a href="#">			
+				<a href="#/doctor/mina">			
 					<img src="assets/img/doctor3.jpg" class="doctor-icon avatar-rounded" alt="">
 					<div class="avatar-text">dr Mina</div>
 				</a>			
@@ -145,7 +145,7 @@
 
 		<div class="row">
 			<div class="col-md-offset-1 col-md-1 right-text">
-				<a href="#">	
+				<a href="#/doctor/fjodor">	
 					<img src="assets/img/doctor5.jpg" class="doctor-icon avatar-rounded" alt="">
 					<div class="avatar-text">dr Fjodor</div>
 				</a>

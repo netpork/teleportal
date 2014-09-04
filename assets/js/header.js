@@ -13,6 +13,10 @@ Teleportal.header = function() {
 		injectQuestion(page, active, topic, index);
 	}
 
+	function initDoctors(page, active, doctor) {
+		injectDoctors(page, active, doctor);
+	}
+
 	function inject(page, active, bolezen) {
 		Teleportal.getContext()
 		.render(Teleportal.getTemplatesPath() + 'header.ms', {authorised: Teleportal.getAuthorised()})
@@ -49,6 +53,26 @@ Teleportal.header = function() {
 			setActive(active);
 		});
 
+	}
+
+	function injectDoctors(page, active, doctor) {
+		Teleportal.getContext()
+		.render(Teleportal.getTemplatesPath() + 'header.ms', {authorised: Teleportal.getAuthorised()})
+		.appendTo(Teleportal.getMainContainer())
+		.then(function() {
+			console.log('header loaded');
+			insertPageDoctors(page, doctor);
+			Teleportal.initEvents();
+			setActive(active);
+		});
+	}
+
+	function insertPageDoctors(page, doc) {
+		Teleportal.getContext().render(Teleportal.getTemplatesPath() + 'pages/' + page + '.ms', Teleportal.getDoctor(doc))
+		.appendTo(Teleportal.getMainContainer())
+		.then(function() {
+
+		});
 	}
 
 	function insertPage(page, bolezen) {
@@ -143,7 +167,8 @@ Teleportal.header = function() {
 	return {
 		init: init,
 		initForum: initForum,
-		initQuestion: initQuestion
+		initQuestion: initQuestion,
+		initDoctors: initDoctors
 	};
 
 }();
