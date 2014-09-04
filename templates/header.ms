@@ -11,7 +11,7 @@
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <a class="navbar-brand" href="#" style="padding-top: 4px;">
+      <a class="navbar-brand" href="#/" style="padding-top: 4px;">
         <!-- Telemedicina -->
         <img src="assets/img/ts_logo_230x53.png" height="40" alt="Telecom Slovenia">
       </a>
