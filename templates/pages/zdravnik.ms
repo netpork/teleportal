@@ -5,7 +5,7 @@
 	<div class="row">
 		<div class="col-md-12">
 			<ol class="breadcrumb">
-				  <li><a href="#">{{spec}}</a></li>
+				  <li><a href="#/question-answers">{{spec}}</a></li>
 				  <li><a href="#">Zdravnik</a></li>
 			</ol>
 		</div>
