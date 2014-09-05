@@ -4,7 +4,7 @@
 		<div class="col-md-1 right-text">
 			<img src="assets/img/social1.jpg" class="doctor-icon" alt="">
 			
-			<div class="avatar-text">Dana Malone</div>
+			<div class="avatar-user-text">Dana Malone</div>
 		</div>
 		<div class="col-md-11">
 			<div class="panel panel-primary">
@@ -102,7 +102,7 @@
 			<div class="col-md-1 right-text">
 				<img src="assets/img/social2.jpg" class="doctor-icon" alt="">
 				
-				<div class="avatar-text">Jan Bradley</div>
+				<div class="avatar-user-text">Jan Bradley</div>
 			</div>
 			<div class="col-md-11">
 				<div class="panel panel-primary">

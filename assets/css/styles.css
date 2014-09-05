@@ -229,6 +229,10 @@
 	.avatar-text {
 		text-align: center;
 	}
+	
+	.avatar-user-text {
+		text-align: right;
+	}
 
 
 	.doctor-icon {
