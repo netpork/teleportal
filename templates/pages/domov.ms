@@ -165,20 +165,20 @@
 		<div class="col-md-6">
 			<p class="home-header bg-info">Zadnje dodane</p>
 			<div class="media">
-				<a href="#" class="pull-left">
+				<a href="#/novice-view/Zadnje dodane" class="pull-left">
 					<img src="assets/img/avatar1_50.jpg" alt="" class="media-object avatar-rounded">
 				</a>
 				<div class="media-body">
-					<h4 class="media-heading">Za volan le spočiti in naspani</h4>
+					<h4 class="media-heading"><a href="#/novice-view/Zadnje dodane">Za volan le spočiti in naspani</a></h4>
 					Zaspanost je vzrok za več kot desetino prometnih nesreč. Na pot pojdite torej le spočiti in naspani, če med vožnjo začutite utrujenost ali zaspanost, pa takoj ustavite.
 				</div>
 			</div>
 			<div class="media">
-				<a href="#" class="pull-left">
+				<a href="#/novice-view/Zadnje dodane" class="pull-left">
 					<img src="assets/img/avatar3_50.jpg" alt="" class="media-object avatar-rounded">
 				</a>
 				<div class="media-body">
-					<h4 class="media-heading">V boj proti okuženim klopom tudi z brezplačno aplikacijo Klop SOS</h4>
+					<h4 class="media-heading"><a href="#/novice-view/Zadnje dodane">V boj proti okuženim klopom tudi z brezplačno aplikacijo Klop SOS</a></h4>
 					Sprehod po gozdu ali delo na vrtu se lahko kaj hitro konča z neželenim vbodom klopa, ki je lahko nevaren, saj lahko klop prenaša več bolezni, pri nas predvsem klopni meningoencefalitis in lymsko boreliozo. Obolevnost za klopnim meningoencefalitisom lahko odslej na enostaven način preverite z aplikacijo Klop SOS.
 				</div>
 			</div>
@@ -186,20 +186,20 @@
 		<div class="col-md-6">
 			<p class="home-header bg-info">Najbolj brane</p>
 			<div class="media">
-				<a href="#" class="pull-left">
+				<a href="#/novice-view/Najbolj brane" class="pull-left">
 					<img src="assets/img/avatar_50.jpg" alt="" class="media-object avatar-rounded">
 				</a>
 				<div class="media-body">
-					<h4 class="media-heading">Zehanje – mehanizem za ohlajanje možganov?</h4>
+					<h4 class="media-heading"><a href="#/novice-view/Najbolj brane">Zehanje – mehanizem za ohlajanje možganov?</a></h4>
 					Pogostost zehanja je odvisna od temperature okolja, kažejo raziskave pri ptičih, podganah, opicah in ljudeh. Zehanje napoveduje dvig temperature v možganih.
 				</div>
 			</div>
 			<div class="media">
-				<a href="#" class="pull-left">
+				<a href="#/novice-view/Najbolj brane" class="pull-left">
 					<img src="assets/img/avatar4_50.jpg" alt="" class="media-object avatar-rounded">
 				</a>
 				<div class="media-body">
-					<h4 class="media-heading">Peteršilj velja za eno najbolj zdravilnih zelišč</h4>
+					<h4 class="media-heading"><a href="#/novice-view/Najbolj brane">Peteršilj velja za eno najbolj zdravilnih zelišč</a></h4>
 					Peteršilj je danes poznan tako v kulinariki kot domači lekarni in zdravstvenih učinkovinah, medtem ko je moral biti v Homerjevih časih na vsaki slavnostni pojedini, saj so se bali zastrupitev.
 				</div>
 			</div>

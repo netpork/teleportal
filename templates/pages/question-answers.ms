@@ -168,9 +168,6 @@
 				</div>
 			</div>
 		</div>	
-
-
-
 </div>
 
 <section class="telecom-footer"></section>

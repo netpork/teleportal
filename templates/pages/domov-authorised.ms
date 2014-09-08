@@ -134,20 +134,20 @@
 		<div class="col-md-6">
 			<p class="home-header bg-info">Zadnje dodane</p>
 			<div class="media">
-				<a href="#" class="pull-left">
+				<a href="#/novice-view/Zadnje dodane" class="pull-left">
 					<img src="assets/img/avatar1_50.jpg" alt="" class="media-object avatar-rounded">
 				</a>
 				<div class="media-body">
-					<h4 class="media-heading">Več kot pol milijarde ljudi na svetu predebelih</h4>
+					<h4 class="media-heading"><a href="#/novice-view/Zadnje dodane">Več kot pol milijarde ljudi na svetu predebelih</a></h4>
 					Število ljudi s čezmerno telesno težo se je v zadnjih 30 letih na svetu skoraj podvojilo, in sicer na pol milijarde.
 				</div>
 			</div>
 			<div class="media">
-				<a href="#" class="pull-left">
+				<a href="#/novice-view/Zadnje dodane" class="pull-left">
 					<img src="assets/img/avatar3_50.jpg" alt="" class="media-object avatar-rounded">
 				</a>
 				<div class="media-body">
-					<h4 class="media-heading">Z dieto proti holesterolu</h4>
+					<h4 class="media-heading"><a href="#/novice-view/Zadnje dodane">Z dieto proti holesterolu</a></h4>
 					Če imate povišan holesterol, potem je potrebna dieta, kar pa ne pomeni, da kar naenkrat nehate jesti in začnete mučiti telo s pomanjkanjem goriva.
 				</div>
 			</div>
@@ -155,24 +155,23 @@
 		<div class="col-md-6">
 			<p class="home-header bg-info">Najbolj brane</p>
 			<div class="media">
-				<a href="#" class="pull-left">
+				<a href="#/novice-view/Najbolj brane" class="pull-left">
 					<img src="assets/img/avatar_50.jpg" alt="" class="media-object avatar-rounded">
 				</a>
 				<div class="media-body">
-					<h4 class="media-heading">Zdrav zajtrk za kakovostno življenje</h4>
+					<h4 class="media-heading"><a href="#/novice-view/Najbolj brane">Zdrav zajtrk za kakovostno življenje</a></h4>
 					Zdrav zajtrk napolni človeka z energijo za cel dan, a ni pomemben le za 24 ur. Pravilna jutranja prehrana postavlja temelje za celo življenje.
 				</div>
 			</div>
 			<div class="media">
-				<a href="#" class="pull-left">
+				<a href="#/novice-view/Najbolj brane" class="pull-left">
 					<img src="assets/img/avatar4_50.jpg" alt="" class="media-object avatar-rounded">
 				</a>
 				<div class="media-body">
-					<h4 class="media-heading">Jeza škodi srcu</h4>
+					<h4 class="media-heading"><a href="#/novice-view/Najbolj brane">Jeza škodi srcu</a></h4>
 					Izživljanje jeze sicer omogoča tistemu, ki je jezen, da si "olajša dušo", ko je to najbolj potrebno, vendar dolgoročno odpira vrata težavam s srcem.
 				</div>
 			</div>
-
 		</div>
 	</div>
 </section>

@@ -6,6 +6,7 @@ var Teleportal = (function($) {
 	templatesPath = 'templates/',
 	storage = $.sessionStorage,
 	authorised = false,
+	newsType,
 
 	doctors = {
 		'stella': {
@@ -100,6 +101,16 @@ var Teleportal = (function($) {
 				isAuthorised();
 				ctx = this;
 				Teleportal.header.init('novice', 1);
+			});
+
+			// novice
+			this.get('#/novice-view/:type', function() {
+				newsType = this.params.type;
+				emptyMain();
+				isAuthorised();
+				ctx = this;
+				Teleportal.header.init('novice_view', 1);
+
 			});
 
 			// bolezni
@@ -273,7 +284,12 @@ var Teleportal = (function($) {
 		
 		getDoctor: function(which) {
 			return doctors[which];
+		},
+
+		getNewsType: function() {
+			return  {'type': newsType};
 		}
+
 	};
 
 })(jQuery);

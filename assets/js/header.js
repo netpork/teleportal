@@ -92,7 +92,19 @@ Teleportal.header = function() {
 			page = 'ustanove-authorised';
 		}
 
-		
+		if (page === 'bolezni' && Teleportal.getAuthorised()) {
+			page = 'bolezni-authorised';
+		}
+
+		if (page === 'novice_view') {
+			Teleportal.getContext().render(Teleportal.getTemplatesPath() + 'pages/' + page + '.ms', Teleportal.getNewsType())
+			.appendTo(Teleportal.getMainContainer())
+			.then(function() {
+			});
+
+			return;
+		}
+
 		Teleportal.getContext().render(Teleportal.getTemplatesPath() + 'pages/' + page + '.ms')
 		.appendTo(Teleportal.getMainContainer())
 		.then(function() {
@@ -102,7 +114,7 @@ Teleportal.header = function() {
 			}
 			// console.log(bolezen);
 
-			if (page === 'bolezni' && bolezen !== 'undefined') {
+			if (page === 'bolezni' || page === 'bolezni-authorised' && bolezen !== 'undefined') {
 				$('#' + bolezen).addClass('in');
 				// scroll to
 				var top = $('#anchor_' + bolezen).offset().top;

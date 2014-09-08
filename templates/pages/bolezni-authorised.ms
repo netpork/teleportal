@@ -3,7 +3,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12">
-				<p class="home-header bg-info">Aktualno / Najbolj pogoste</p>
+				<p class="home-header bg-info">Moje bolezni</p>
 			</div>
 		</div>
 
@@ -22,12 +22,6 @@
 					</a>
 				</span>
 				<span class="col-md-1 image-thumbnails">
-					<a href="#/bolezni/sladkorna">
-						<img src="assets/img/diabetes.png" class="img-responsive" alt="">
-						<h4>Diabetes</h4>
-					</a>
-				</span>
-				<span class="col-md-1 image-thumbnails">
 					<a href="#/bolezni/acc-depresija">
 						<img src="assets/img/depresija.png" class="img-responsive" alt="">
 						<h4>Depresija</h4>
@@ -36,8 +30,14 @@
 			</div>	
 		</section>
 
+		<div class="row">
+			<div class="col-md-12">
+				<p class="home-header bg-info">Aktualno / Najbolj pogoste</p>
+			</div>
+		</div>
+
 		<div class="row" style="margin-top: 10px;">
-			<span class="col-md-offset-4 col-md-1 image-thumbnails">
+			<span class="col-md-offset-3 col-md-1 image-thumbnails">
 				<a href="#/bolezni/odvisnost">
 					<img src="assets/img/odvisnost.png" class="img-responsive" alt="">
 					<h4>Odvisnost</h4>
@@ -59,6 +59,12 @@
 				<a href="#/bolezni/hiv">
 					<img src="assets/img/hiv.png" class="img-responsive" alt="">
 					<h4>HIV</h4>
+				</a>
+			</span>
+			<span class="col-md-1 image-thumbnails">
+				<a href="#/bolezni/sladkorna">
+					<img src="assets/img/diabetes.png" class="img-responsive" alt="">
+					<h4>Diabetes</h4>
 				</a>
 			</span>
 		</div>
