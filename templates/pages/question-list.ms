@@ -4,7 +4,7 @@
 		
 		<div class="row">
 			<div class="col-md-12">
-				<p class="home-header bg-info">Mental Health</p>
+				<p class="home-header bg-info">Duševno Zdravlje</p>
 			</div>
 		</div>
 
