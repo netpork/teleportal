@@ -19,8 +19,8 @@
 					<div class="forum-group">
 
 						<div class="forum-title">		
-							<a href="#/question-answers" data-forum="anxiety" class="forum-link grp-lnk">Is this Anxiety?</a>
-							<a href="#/question-answers" data-forum="anxiety" class="forum-link cat-lnk">Dana Malone</a>
+							<a href="#/question-answers" data-forum="anxiety" class="forum-link grp-lnk">Menjavanje razpoloženja</a>
+							<a href="#/question-answers" data-forum="anxiety" class="forum-link cat-lnk">Nihajoč</a>
 						</div>
 
 						<div class="cat-stats rate-icons pull-right">
@@ -46,8 +46,8 @@
 					<div class="forum-group">
 
 						<div class="forum-title">		
-							<a href="#/question-answers" data-forum="anxiety" class="forum-link grp-lnk">Anti Depression Exercises</a>
-							<a href="#/question-answers" data-forum="anxiety" class="forum-link cat-lnk">Jan Bradley</a>
+							<a href="#/question-answers" data-forum="anxiety" class="forum-link grp-lnk">Kako naj se popravim?</a>
+							<a href="#/question-answers" data-forum="anxiety" class="forum-link cat-lnk">Modra flaška</a>
 						</div>
 
 						<div class="cat-stats rate-icons pull-right">
@@ -64,7 +64,7 @@
 
 		<div class="row">
 			<div class="col-md-12">
-				<p class="home-header bg-info">Chest and lungs</p>
+				<p class="home-header bg-info">Preventivna Medicina</p>
 			</div>
 		</div>
 		
@@ -79,8 +79,8 @@
 					<div class="forum-group">
 
 						<div class="forum-title">		
-							<a href="#/question-answers" data-forum="anxiety" class="forum-link grp-lnk">Pain in Chest left side</a>
-							<a href="#/question-answers" data-forum="anxiety" class="forum-link cat-lnk">Hassana</a>
+							<a href="#/question-answers" data-forum="anxiety" class="forum-link grp-lnk">Kako deluje cepivo proti tetanusu</a>
+							<a href="#/question-answers" data-forum="anxiety" class="forum-link cat-lnk">ni jasno</a>
 						</div>
 
 						<div class="cat-stats rate-icons pull-right">
@@ -106,8 +106,8 @@
 					<div class="forum-group">
 
 						<div class="forum-title">		
-							<a href="#/question-answers" data-forum="anxiety" class="forum-link grp-lnk">Shallow breathing, struggle to take deep breaths</a>
-							<a href="#/question-answers" data-forum="anxiety" class="forum-link cat-lnk">mattty</a>
+							<a href="#/question-answers" data-forum="anxiety" class="forum-link grp-lnk">Cepljenje dojenčkov</a>
+							<a href="#/question-answers" data-forum="anxiety" class="forum-link cat-lnk">chili</a>
 						</div>
 
 						<div class="cat-stats rate-icons pull-right">
@@ -133,8 +133,8 @@
 					<div class="forum-group">
 
 						<div class="forum-title">		
-							<a href="#/question-answers" data-forum="anxiety" class="forum-link grp-lnk">10k jogger struggling to breathe</a>
-							<a href="#/question-answers" data-forum="anxiety" class="forum-link cat-lnk">Mitch</a>
+							<a href="#/question-answers" data-forum="anxiety" class="forum-link grp-lnk">Cepljenje proti pneumokoku in alergija na jajca</a>
+							<a href="#/question-answers" data-forum="anxiety" class="forum-link cat-lnk">rumena11</a>
 						</div>
 
 						<div class="cat-stats rate-icons pull-right">

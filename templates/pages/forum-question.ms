@@ -3,7 +3,7 @@
 	<div class="row">
 		<div class="col-md-1 right-text">
 			<span class="glyphicon glyphicon-user forum-avatar"></span>	
-			<div class="avatar-text">{{author}}</div>
+			<div class="avatar-user-text">{{author}}</div>
 		</div>
 		<div class="col-md-11">
 			<div class="panel panel-primary">
@@ -21,7 +21,7 @@
 		<div class="row">
 			<div class="col-md-1 right-text">
 				<span class="glyphicon glyphicon-comment forum-avatar"></span>	
-				<div class="avatar-text">{{answer1_author}}</div>
+				<div class="avatar-user-text">{{answer1_author}}</div>
 			</div>
 			<div class="col-md-11">
 				<div class="panel panel-info">
@@ -39,7 +39,7 @@
 		<div class="row">
 			<div class="col-md-1 right-text">
 				<span class="glyphicon glyphicon-user forum-avatar"></span>	
-				<div class="avatar-text">{{answer2_author}}</div>
+				<div class="avatar-user-text">{{answer2_author}}</div>
 			</div>
 			<div class="col-md-11">
 				<div class="panel panel-primary">
@@ -62,7 +62,7 @@
 			<div class="col-md-11">
 				<div class="panel panel-default">
 					<div class="panel-heading">
-				    	<h3 class="panel-title">Reply to {{author}}'s discussion</h3>
+				    	<h3 class="panel-title">Odgovori</h3>
 				  	</div>
 				  	<div class="panel-body">
 						<textarea class="form-control" rows="3"></textarea>

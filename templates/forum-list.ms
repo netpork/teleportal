@@ -6,7 +6,7 @@
 		</div>
 		<div class="col-md-9">
 			<div class="forum-title-text">
-				<a href="#/forum-question/{{topic}}/{{index}}">{{title}}</a>
+				<a href="#/forum-question/{{topic}}/0">{{title}}</a>
 			</div>
 		</div>
 		<div class="col-md-2">
