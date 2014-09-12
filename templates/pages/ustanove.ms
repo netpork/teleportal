@@ -9,6 +9,9 @@
 		</div>
 
 
+
+	<div id="accordion" class="panel-group">
+	
 		<div id="" class="panel panel-default">
 		    <div class="panel-heading">
 		      <h4 class="panel-title">
@@ -196,9 +199,27 @@
 					Trbovlje oziroma v specialističnih dejavnostih tudi za vse prebivalce Zasavja, pri čemer se, zaradi celovitejšega zadovoljevanja potreb uporabnikov, povezuje tudi z ostalimi zdravstvenimi ustanovami v Zasavju in v Sloveniji.
 				</div>
 		    </div>
-		    </div>
+		</div>
+
+	</div>
 
 
+			<!-- buttons show/hide all -->
+			<div id="collapseControls" class="row" style="margin-top: 10px;">
+				<div class="col-md-6 btn-group btn-group-sm">
+				
+					<button id="btn-collapse-show" class="btn btn-default collapse-button" data-button="show">
+						<span class="glyphicon glyphicon-resize-full"> </span>
+						&nbsp;Prikaži vse
+					</button>
+
+					<button id="btn-collapse-hide" class="btn btn-default collapse-button hide" data-button="hide">
+						<span class="glyphicon glyphicon-resize-small"> </span>
+						&nbsp;Zapri vse
+					</button>
+
+				</div>
+			</div>
 
 
 	</div>

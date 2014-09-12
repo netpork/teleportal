@@ -1,6 +1,9 @@
 Teleportal.header = function() {
 	'use strict';
 
+	var accordionState = true
+	;
+
 	function init(page, active, bolezen) {
 		inject(page, active, bolezen);
 	}
@@ -112,13 +115,19 @@ Teleportal.header = function() {
 				makeBars();
 				makeWeather();
 			}
+
 			// console.log(bolezen);
 
-			if (page === 'bolezni' || page === 'bolezni-authorised' && bolezen !== 'undefined') {
+			if ((page === 'bolezni' || page === 'bolezni-authorised') && bolezen) {
 				$('#' + bolezen).addClass('in');
 				// scroll to
 				var top = $('#anchor_' + bolezen).offset().top;
 				$(window).scrollTop(top);
+			}
+
+
+			if (page === 'bolezni' || page === 'bolezni-authorised' || page === 'ustanove' || page === 'ustanove-authorised') {
+				initCollapseControlButtons();
 			}
 
 			if (page === 'question-list' || page === 'question-answers') {
@@ -174,6 +183,39 @@ Teleportal.header = function() {
 
 	function makeRates() {
 		$('input.rating').rating();
+	}
+
+	function initCollapseControlButtons() {
+		$('#accordion').on('show.bs.collapse', function () {
+			if (accordionState) {
+				$('#accordion .in').collapse('hide');
+			}
+		});
+
+		$('#collapseControls').on('click', 'button', function() {
+			// console.log($(this).data('button'));
+
+			if ($(this).data('button') === 'show') {
+				if (accordionState) {
+					accordionState = false;
+					$('.panel-collapse').collapse('show');
+					$('.panel-title > a').attr('data-toggle','');
+					
+					$('#btn-collapse-show').toggleClass('hide');
+					$('#btn-collapse-hide').toggleClass('hide');
+					console.log('show');
+				}
+			} else {
+				accordionState = true;
+				$('.panel-collapse').collapse('hide');
+				$('.panel-title > a').attr('data-toggle', 'collapse');
+
+				$('#btn-collapse-hide').toggleClass('hide');
+				$('#btn-collapse-show').toggleClass('hide');
+
+				console.log('hide');
+			}
+		});
 	}
 
 	return {

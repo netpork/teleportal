@@ -71,12 +71,15 @@
 
 	
 		<div class="row" style="margin-top: 10px;">
+
+			<!-- accordion -->
 			<div class="col-md-offset-2 col-md-8">
 
 
-			<!-- accordion -->
 
 <!-- depresija -->
+		<div id="accordion" class="panel-group">
+
 			<div id="anchor_acc-depresija" class="panel panel-default">
 			    <div class="panel-heading">
 			      <h4 class="panel-title">
@@ -319,14 +322,32 @@
 <!-- end of pneumonija -->
 
 
-
-
+		</div>
 
 
 
 			  
 			  </div>
 			 </div>
+			<!-- end of accordion -->
+
+			<!-- buttons show/hide all -->
+			<div id="collapseControls" class="row" style="margin-top: 10px;">
+				<div class="col-md-offset-2 col-md-6 btn-group btn-group-sm">
+				
+					<button id="btn-collapse-show" class="btn btn-default collapse-button" data-button="show">
+						<span class="glyphicon glyphicon-resize-full"></span>
+						&nbsp;Prikaži vse
+					</button>
+
+					<button id="btn-collapse-hide" class="btn btn-default collapse-button hide" data-button="hide">
+						<span class="glyphicon glyphicon-resize-small"></span>
+						&nbsp;Zapri vse
+					</button>
+
+				</div>
+			</div>
+
 
 			</div>
 
