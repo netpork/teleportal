@@ -89,7 +89,7 @@
 			<div id="anchor_acc-depresija" class="panel panel-default">
 			    <div class="panel-heading">
 			      <h4 class="panel-title">
-			        <a data-toggle="collapse" data-parent="#accordion" href="#acc-depresija">
+			        <a data-toggle="collapse" data-parent="#accordion" data-target="#acc-depresija">
 						Depresija
 			        </a>
 			      </h4>
@@ -115,7 +115,7 @@
 			<div id="anchor_sladkorna" class="panel panel-default">
 			    <div class="panel-heading">
 			      <h4 class="panel-title">
-			        <a data-toggle="collapse" data-parent="#accordion" href="#sladkorna">
+			        <a data-toggle="collapse" data-parent="#accordion" data-target="#sladkorna">
 						Diabetes
 			        </a>
 			      </h4>
@@ -148,7 +148,7 @@
 				<div id="anchor_acc-holersterol" class="panel panel-default">
 			    <div class="panel-heading">
 			      <h4 class="panel-title">
-			        <a data-toggle="collapse" data-parent="#accordion" href="#acc-holersterol">
+			        <a data-toggle="collapse" data-parent="#accordion" data-target="#acc-holersterol">
 						Hiperholesterolemija
 			        </a>
 			      </h4>
@@ -178,7 +178,7 @@
 				<div id="anchor_hiv" class="panel panel-default">
 			    <div class="panel-heading">
 			      <h4 class="panel-title">
-			        <a data-toggle="collapse" data-parent="#accordion" href="#hiv">
+			        <a data-toggle="collapse" data-parent="#accordion" data-target="#hiv">
 						HIV
 			        </a>
 			      </h4>
@@ -227,7 +227,7 @@
 			<div id="anchor_karies" class="panel panel-default">
 			    <div class="panel-heading">
 			      <h4 class="panel-title">
-			        <a data-toggle="collapse" data-parent="#accordion" href="#karies">
+			        <a data-toggle="collapse" data-parent="#accordion" data-target="#karies">
 						Karies
 			        </a>
 			      </h4>
@@ -254,7 +254,7 @@
 				<div id="anchor_acc-tlak" class="panel panel-default">
 			    <div class="panel-heading">
 			      <h4 class="panel-title">
-			        <a data-toggle="collapse" data-parent="#accordion" href="#acc-tlak">
+			        <a data-toggle="collapse" data-parent="#accordion" data-target="#acc-tlak">
 						Krvni Tlak
 			        </a>
 			      </h4>
@@ -282,7 +282,7 @@
 			<div id="anchor_odvisnost" class="panel panel-default">
 			    <div class="panel-heading">
 			      <h4 class="panel-title">
-			        <a data-toggle="collapse" data-parent="#accordion" href="#odvisnost">
+			        <a data-toggle="collapse" data-parent="#accordion" data-target="#odvisnost">
 						Odvisnost
 			        </a>
 			      </h4>
@@ -309,7 +309,7 @@
 			<div id="anchor_pneumonija" class="panel panel-default">
 			    <div class="panel-heading">
 			      <h4 class="panel-title">
-			        <a data-toggle="collapse" data-parent="#accordion" href="#pneumonija">
+			        <a data-toggle="collapse" data-parent="#accordion" data-target="#pneumonija">
 						Pljučnica
 			        </a>
 			      </h4>
@@ -326,12 +326,6 @@
 			    </div>
 			    </div>
 <!-- end of pneumonija -->
-
-
-
-
-
-
 
 			  
 			  </div>
@@ -355,16 +349,9 @@
 				</div>
 			</div>
 
-
-
-
-
-
-
 			</div>
 
 		</div>
-
 
 
 </section>

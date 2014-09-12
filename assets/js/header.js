@@ -119,7 +119,10 @@ Teleportal.header = function() {
 			// console.log(bolezen);
 
 			if ((page === 'bolezni' || page === 'bolezni-authorised') && bolezen) {
-				$('#' + bolezen).addClass('in');
+				// $('#' + bolezen).addClass('in');
+				$('#' + bolezen).collapse('show');
+				$('#' + bolezen + ' > a').attr('data-toggle','');
+
 				// scroll to
 				var top = $('#anchor_' + bolezen).offset().top;
 				$(window).scrollTop(top);
@@ -127,6 +130,7 @@ Teleportal.header = function() {
 
 
 			if (page === 'bolezni' || page === 'bolezni-authorised' || page === 'ustanove' || page === 'ustanove-authorised') {
+				accordionState = true;
 				initCollapseControlButtons();
 			}
 
@@ -193,7 +197,6 @@ Teleportal.header = function() {
 		});
 
 		$('#collapseControls').on('click', 'button', function() {
-			// console.log($(this).data('button'));
 
 			if ($(this).data('button') === 'show') {
 				if (accordionState) {

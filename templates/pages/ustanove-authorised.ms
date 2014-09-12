@@ -13,7 +13,7 @@
 		<div id="" class="panel panel-default">
 		    <div class="panel-heading">
 		      <h4 class="panel-title">
-		        <a data-toggle="collapse" data-parent="#accordion" href="#bled">
+		        <a data-toggle="collapse" data-parent="#accordion" data-target="#bled">
 					Reševalna postaja Bled
 		        </a>
 		      </h4>
@@ -58,7 +58,7 @@
 		<div id="" class="panel panel-default">
 		    <div class="panel-heading">
 		      <h4 class="panel-title">
-		        <a data-toggle="collapse" data-parent="#accordion" href="#kranj">
+		        <a data-toggle="collapse" data-parent="#accordion" data-target="#kranj">
 					Reševalna postaja Kranj
 		        </a>
 		      </h4>
@@ -93,7 +93,7 @@
 		<div id="" class="panel panel-default">
 		    <div class="panel-heading">
 		      <h4 class="panel-title">
-		        <a data-toggle="collapse" data-parent="#accordion" href="#mozirje">
+		        <a data-toggle="collapse" data-parent="#accordion" data-target="#mozirje">
 					Zdravstveni dom Mozirje
 		        </a>
 		      </h4>
@@ -134,7 +134,7 @@
 		<div id="" class="panel panel-default">
 		    <div class="panel-heading">
 		      <h4 class="panel-title">
-		        <a data-toggle="collapse" data-parent="#accordion" href="#tolmin">
+		        <a data-toggle="collapse" data-parent="#accordion" data-target="#tolmin">
 					Zdravstveni dom Tolmin
 		        </a>
 		      </h4>
@@ -173,7 +173,7 @@
 		<div id="" class="panel panel-default">
 		    <div class="panel-heading">
 		      <h4 class="panel-title">
-		        <a data-toggle="collapse" data-parent="#accordion" href="#trbovlje">
+		        <a data-toggle="collapse" data-parent="#accordion" data-target="#trbovlje">
 					Zdravstveni dom Trbovlje
 		        </a>
 		      </h4>

@@ -220,6 +220,9 @@
 		}
 
 
+.panel-title:hover {
+     cursor: pointer;
+}
 
 .doctor-icon-wrapper {
 	/*display: inline-block;*/
